@@ -1,0 +1,52 @@
+header.masthead-arthom {
+    background-image: url(../img/fundo.jpg)
+}
+.btn-ver-mais {
+    color: white;
+    background-color: #003d73;
+    border-color: #003d73;
+}
+.btn-ver-mais:active, .btn-ver-mais:focus, .btn-ver-mais:hover {
+    color: white;
+    background-color: #165d9c !important;
+    border-color: #165d9c !important;
+}
+.masthead-arthom h1,
+.masthead-arthom h2 {
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+section.contato {
+    background-color: #295093;
+}
+.social-link {
+    background: #1d809f;
+    height: 50px;
+    left: 0;
+    line-height: 50px;
+    margin-top: -15px;
+    position: absolute;
+    width: 50px;
+}
+a {
+    text-decoration: none;
+    color: #212529;
+}
+.ctc-list {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.ctc-list > li {
+    margin-top: 40px;
+    padding-left: 60px;
+    position: relative;
+    list-style: none;
+}
+ul {
+    padding-inline-start: 0;
+}
+@media (max-width: 768px) {
+ .texto {
+    padding-top: 0!important;
+ }
+}
